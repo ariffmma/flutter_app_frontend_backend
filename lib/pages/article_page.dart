@@ -191,7 +191,7 @@ class _ArticlePageState extends State<ArticlePage> {
                                         image: DecorationImage(
                                           fit: BoxFit.fill,
                                           image: NetworkImage(
-                                              "http://api.anabata.com/uploads/" +
+                                              "http://yourweb.com/uploads/" +
                                                   articles[i].img),
                                         ),
                                       ),
