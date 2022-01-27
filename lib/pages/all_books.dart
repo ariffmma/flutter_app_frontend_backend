@@ -153,7 +153,7 @@ class _AllBooksState extends State<AllBooks> {
                                                   image: DecorationImage(
                                                     fit: BoxFit.fill,
                                                     image: NetworkImage(
-                                                        "http://api.anabata.com/uploads/" +
+                                                        "http://yourweb.com/uploads/" +
                                                             article.img),
                                                   ),
                                                 )))),
