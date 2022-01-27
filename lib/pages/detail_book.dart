@@ -71,7 +71,7 @@ class _DetailBookPageState extends State<DetailBookPage> {
                                   ],
                                   image: DecorationImage(
                                       image: NetworkImage(
-                                          "http://api.anabata.com/uploads/" +
+                                          "http://yourweb.com/uploads/" +
                                               this.widget.articleInfo.img),
                                       fit: BoxFit.fill)),
                             ),
