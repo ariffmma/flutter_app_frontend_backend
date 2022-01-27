@@ -5,8 +5,8 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class CallApi {
-  final String _url = 'http://api.anabata.com/api/';
-  final String _imgUrl = 'http://api.anabata.com/uploads/';
+  final String _url = 'http://yourweb.com/api/';
+  final String _imgUrl = 'http://yourweb.com/uploads/';
   getImage() {
     return _imgUrl;
   }
